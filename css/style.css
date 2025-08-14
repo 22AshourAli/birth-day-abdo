@@ -23,7 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d6ea66 0%, #ffa705 100%);
     color: white;
     cursor: pointer;
     text-align: center;
@@ -44,7 +44,7 @@ body {
 /* المحتوى الرئيسي */
 .main-content {
     height: 100vh;
-    padding-top: 50px;
+    padding-top: 14px;
     position: relative;
 }
 
@@ -92,7 +92,7 @@ h1 {
 }
 
 .buttons {
-    margin: 30px 0;
+    margin: 18px 0;
     display: flex;
     justify-content: center;
     gap: 15px;
