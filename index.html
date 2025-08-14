@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيد ميلاد سعيد عبدالرحمن!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="birthday-card">
+        <!-- الشاشة الأولى -->
+        <div class="welcome-screen animate__animated animate__fadeIn">
+            <h1 class="animate__animated animate__bounceIn">اضغط لفتح البطاقة</h1>
+            <div class="click-icon animate__animated animate__heartBeat animate__infinite">
+                <i class="fas fa-hand-pointer"></i>
+            </div>
+        </div>
+
+        <!-- المحتوى الرئيسي (مخفي في البداية) -->
+        <div class="main-content d-none">
+            <!-- الخلفية المتحركة -->
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+
+            <!-- الصورة والتهنئة -->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <img src="images/abdo.jpg" alt="صورة عبدالرحمن" class="profile-img animate__animated animate__zoomIn">
+                        <h1 class="mt-3 animate__animated animate__fadeInDown">عيد ميلاد سعيد</h1>
+                        <h2 class="name animate__animated animate__fadeInUp">عبدالرحمن علي !</h2>
+                        <p class="age animate__animated animate__fadeIn">🎉 <span class="counter">22</span> سنة 🎉</p>
+                        
+                        <div class="message animate__animated animate__fadeIn">
+                            <p>كل عام وأنت بخير يا غالي!</p>
+                            <p>أدام الله عليك الصحة والسعادة</p>
+                            <p>وكل عام وأنت إلى الله أقرب</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- الأزرار -->
+            <div class="buttons animate__animated animate__fadeInUp">
+                <button class="btn btn-primary music-btn">
+                    <i class="fas fa-music"></i> تشغيل الموسيقى
+                </button>
+                <button class="btn btn-success wishes-btn">
+                    <i class="fas fa-heart"></i> أمنياتي لك
+                </button>
+            </div>
+
+            <!-- رسالة الأمنيات (مخفية في البداية) -->
+            <div class="wishes-modal">
+                <div class="wishes-content">
+                    <span class="close-btn">&times;</span>
+                    <h3>أمنياتي لك في عيد ميلادك</h3>
+                    <ul>
+                        <li>صحة دائمة وعمر مديد</li>
+                        <li>سعادة تملأ حياتك</li>
+                        <li>توفيق في كل أعمالك</li>
+                        <li>رضا الله ثم رضا الوالدين</li>
+                        <li>حياة مليئة بالحب والنجاح</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- مشغل الموسيقى (مخفي) -->
+        <audio class="birthday-song" loop>
+            <source src="images/sounds/Albumaty.Com.Hamada.Helal.Elnhrda.Eid.Melad.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
